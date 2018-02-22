@@ -36,7 +36,7 @@ app.post("/new-entry", function( request, response ){
     published: new Date()
   });
 
-  response.rediret("/");
+  response.redirect("/");
 });
 
 app.use(function(request, response){
